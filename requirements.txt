@@ -1,0 +1,3 @@
+# Cài PyTorch theo máy trước (GPU: xem https://pytorch.org/get-started/locally/), rồi:
+ultralytics==8.4.138
+pandas==2.3.3

@@ -1,0 +1,23 @@
+# Dữ liệu nặng: chỉ giữ hướng dẫn tải
+data/*
+!data/README.md
+
+# Model và kết quả train: đưa lên GitHub Release / Drive
+*.pt
+*.zip
+runs/
+
+# Python, notebook
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+*.cache
+
+# Bí mật, máy cá nhân
+.env
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
