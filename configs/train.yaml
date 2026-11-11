@@ -1,0 +1,11 @@
+# Tham số huấn luyện YOLOv8-seg (đã dùng cho model trong báo cáo, Colab GPU T4 15 GB)
+imgsz: 1024          # ảnh truyện có chữ nhỏ; 1024 vừa bộ nhớ T4 với batch 8
+epochs: 60
+patience: 20         # dừng sớm nếu 20 epoch không cải thiện
+batch: 8             # 16 bị tràn bộ nhớ GPU ở 1024px
+cos_lr: true         # giảm tốc độ học theo đường cos
+close_mosaic: 10     # tắt ghép 4 ảnh ở 10 epoch cuối để model quen ảnh thật
+fliplr: 0.0          # không lật ngang: lật làm ngược chiều đọc của truyện
+workers: 2
+save_period: 5       # lưu checkpoint mỗi 5 epoch, Colab bị ngắt thì train tiếp
+plots: true
