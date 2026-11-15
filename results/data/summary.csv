@@ -1,0 +1,4 @@
+﻿tập,số ảnh,số bong bóng,ảnh không có bong bóng,TB bong bóng/ảnh,nhiều nhất/ảnh
+train,2056,12775,259,6.21,28
+val,404,2632,44,6.51,26
+test,211,1351,19,6.4,23
